@@ -31,3 +31,4 @@ export const removeCartID = (id) => {
   cartProducts.splice(indexProduct, 1);
   localStorage.setItem('cartProducts', JSON.stringify(cartProducts));
 };
+//iniciando o projeto//
